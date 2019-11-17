@@ -351,7 +351,6 @@ simple_test()
 	bdtest
 	iotest
 	pingtest
-	updatefile
 }
 
 normal_test()
@@ -365,9 +364,7 @@ normal_test()
 	tracetest
 	backtracetest
 	pingtest
-	gotoping
-	updatefile
-	
+	gotoping	
 }
 
 all_test()
@@ -383,8 +380,6 @@ all_test()
 	pingtest
 	gotoping
 	benchtest
-	updatefile
-	
 }
 
 
