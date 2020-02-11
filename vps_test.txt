@@ -1,0 +1,11 @@
+# 硬件IO，VPS所用虚拟化技术、国内下载速度
+wget https://makeai.cn/master/superbenchcn.sh && chmod +x superbenchcn.sh && ./superbenchcn.sh
+
+# 国内三网下载速度，延迟
+bash <(curl -Lso- https://git.io/superspeed)
+
+# 回程路由测试，有4个节点，可自定义节点
+wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh && bash testrace.sh
+
+# 回程路由测试，有10个节点
+wget -qO- git.io/besttrace | bash
